@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questionare</title>
+  <link rel="icon" type="image/png" href="main-img/logo.png" >
+</head>
+<body>
+  <link rel="stylesheet" type="text/css" href="questionare.css">
+  <link rel="stylesheet" type="text/css" href="questionareupload.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="container">
+    <div class="scotch-tape"></div>
+    <h1 id="title">Research Form</h1>
+    <p id="description">The symbolism of colour is constantly evolving, therefore communicators must remain updated in order to use it effectively. This research provides insight on how people view sustainability in the fashion world and how colour can affect how it is portrayed. The data base is quickly updated with the responses, and real-time analysis provides the most recent information.</p>
+    <p id="required">*Required</p>
+    <form id="survey-form" class="survey-form">
+      <div class="basic-info">
+        <div class="form-item">
+          <label for="email" id="email-label"> Email<span>*</span></label>
+          <input type="email" id="email" placeholder="Enter your Email" >
+        </div>
+      </div>
+      <div class="form-item">
+        <label for="dropdown">Which country are you based in and what is your nationality</label>
+        <input type="text" name="answer" placeholder="Your Answer" >
+      </div> 
+<!-- upload-->
+<div class="form-item">
+<label for="dropdown">Upload one visual/ campaign that comes to mind when you think of sustainable fashion<span>*</span></label>
+       <div class="drop-zone">
+    <span1 class="drop-zone__prompt">Drop file here or click to upload</span1>
+    <input type="file" name="myFile" class="drop-zone__input" >
+  </div>
+</div>
+<!--upload-->
+
+      <div class="form-item">
+      <label>What is one word that you think represents sustainability?<span>*</span></label>
+      <input type="text" name="answer" placeholder="Your Answer" >
+      </div>
+      <div class="form-item">
+        <label>Specify and describe in detail, one colour that you would associate with the above word and how it makes you feel.<span>*</span><label>
+         <input type="text" name="answer" placeholder="Your Answer"> 
+        <div class="improvement">
+          <div>
+           <input type="submit" id="submit">
+      </div>
+    </form>
+  </div>
+  <script src="questionare.js"></script>
+</body>
+</html>
